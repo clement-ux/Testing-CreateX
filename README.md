@@ -1,3 +1,18 @@
+# Testing CreateX contract
+
+Original github repo: https://github.com/pcaversaccio/createx
+
+Testing Create and predict address for :
+* Simple contract with/without constructor arugments.
+* Contract with `_init_()` functions (proxy).
+* Cloning already deployed contract.
+
+
+Testing Create2 and predict address for :
+* Simple contract deployment.
+* Deploy contrat with Permissioned Deploy Protection and Cross-Chain Redeploy Protection.
+
+
 ## How to use
 - First: install and build.
 ```
