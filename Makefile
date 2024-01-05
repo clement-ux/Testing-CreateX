@@ -2,7 +2,7 @@
 
 .EXPORT_ALL_VARIABLES:
 MAKEFLAGS += --no-print-directory
-FOUNDRY_ETH_RPC_URL=$(RPC_URL_MAINNET)
+#FOUNDRY_ETH_RPC_URL=$(RPC_URL_MAINNET)
 
 default:
 	forge fmt && forge build

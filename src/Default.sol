@@ -1,4 +1,12 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity 0.8.20;
+pragma solidity 0.8.23;
 
-contract Default {}
+contract Default {
+    address public owner;
+    address public origin;
+
+    constructor() {
+        owner = msg.sender;
+        origin = tx.origin;
+    }
+}
